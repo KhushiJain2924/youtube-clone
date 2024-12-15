@@ -11,7 +11,7 @@
   vertical-align: middle;
   position: fixed;
   background-color: white;
-  z-index: 1000px;
+  z-index:100000;
 }
 .navigation-flex{
   border-bottom-color:rgb(202, 197, 197) ;
@@ -195,7 +195,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 450px;
+  /* height: 450px; */
   position: fixed;
   left: 0px;
   top:55px;

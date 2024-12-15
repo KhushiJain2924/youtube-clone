@@ -202,7 +202,7 @@
   bottom:0px;
   width:78px;
   background-color: white;
-  z-index: 200px;
+  z-index: 2000px;
 }
 .sidebar-link{
   height:76px;

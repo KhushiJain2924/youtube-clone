@@ -40,9 +40,14 @@
   text-size-adjust: auto;
   vertical-align: middle;
 }
-
+.content{
+  display: flex; 
+  position: relative; 
+  flex-direction: column; 
+  width: fit-content
+}
 .thumbnail-class{
-  position:relative;
+  position: relative;
   cursor: pointer;
 }
 .absolute-value{
@@ -56,11 +61,10 @@
   border-radius: 3px;
   font-family: Arial;
   font-size: 14px;
-  position: absolute;
-  z-index: -100;
-  bottom:10px;
-  right: 5px;
-
+  position:absolute;
+  bottom:7px;
+  left: 292px;
+  z-index: 10000;
   }
 .channel-image{
   height: 40px;
@@ -91,6 +95,7 @@
 .channel-text-flex{
   display: flex;
  margin-top: 10px;
+ position: relative;
 }
 .text-div{
   margin-left: 10px;
